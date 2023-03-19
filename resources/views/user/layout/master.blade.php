@@ -24,6 +24,17 @@
       gtag("config", "G-QT65KT9DNB");
     </script>
   </head>
+  <style>
+    img.img-itemprop {
+        width: 300px;
+        height: 200px;
+        border-radius: 15px;
+    }
+    img.img-itemprop:hover {
+        width: 350px;
+        height: 250px;
+    }
+    </style>
 
   <body class="rlr-body">
     @include('user.includes.header')
@@ -43,8 +54,7 @@
               <div class="rlr-section-header">
                 <!-- Section heading -->
                 <div class="rlr-section__title">
-                  <h2 class="rlr-section__title--main">Trending 2022</h2>
-                  <span class="rlr-section__title--sub">The trending tours are based on user bookings.</span>
+                  <h2 class="rlr-section__title--main">Trending 2023</h2>
                 </div>
                 <div class="button-row">
                   <button type="button" class="btn rlr-button button button--previous rlr-button--carousel" aria-label="Previous">
@@ -75,13 +85,13 @@
                       <div class="swiper rlr-js-product-multi-image-swiper">
                         <div class="swiper-wrapper">
                           <div class="swiper-slide">
-                            <img itemprop="image" data-sizes="auto" data-src="https://d33wubrfki0l68.cloudfront.net/e130927abfddd9b3ce8dd3db6d41b6606591b25d/6090c/assets/images/product-images/small/01.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/e130927abfddd9b3ce8dd3db6d41b6606591b25d/6090c/assets/images/product-images/small/01.jpg" class="lazyload" alt="product-image" />
+                            <img itemprop="image"  data-src="https://d33wubrfki0l68.cloudfront.net/e130927abfddd9b3ce8dd3db6d41b6606591b25d/6090c/assets/images/product-images/small/01.jpg" data-srcset="https://dulichmedia.dalat.vn/Images/TNN/namdan.tnn/thang6/t3/untitled1_637916550926735974.jpg" class="lazyload" alt="product-image" />
                           </div>
                           <div class="swiper-slide">
-                            <img itemprop="image" data-sizes="auto" data-src="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" class="lazyload" alt="product-image" />
+                            <img itemprop="image"  data-src="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" class="lazyload" alt="product-image" />
                           </div>
                           <div class="swiper-slide">
-                            <img itemprop="image" data-sizes="auto" data-src="https://d33wubrfki0l68.cloudfront.net/e8eaab1664e0a66491cf5a8fa59320f688942c5a/7e92c/assets/images/product-images/small/03.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/e8eaab1664e0a66491cf5a8fa59320f688942c5a/7e92c/assets/images/product-images/small/03.jpg" class="lazyload" alt="product-image" />
+                            <img itemprop="image"  data-src="https://d33wubrfki0l68.cloudfront.net/e8eaab1664e0a66491cf5a8fa59320f688942c5a/7e92c/assets/images/product-images/small/03.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/e8eaab1664e0a66491cf5a8fa59320f688942c5a/7e92c/assets/images/product-images/small/03.jpg" class="lazyload" alt="product-image" />
                           </div>
                         </div>
                         <button type="button" class="btn rlr-button splide__arrow splide__arrow--prev" aria-label="prev button">
@@ -97,15 +107,77 @@
                       <header class="rlr-product-card__header">
                         <div>
                           <a class='rlr-product-card__anchor-title' href='/product-detail-page'>
-                            <h2 class="rlr-product-card__title" itemprop="name">Full-Day Catamaran Cruise to Hvar &amp; Pakleni Islands</h2>
+                            <h2 class="rlr-product-card__title" itemprop="name">Chùa Một Cột Tại Hải Lăng </h2>
                           </a>
                           <div>
                             <a class='rlr-product-card__anchor-cat' href='/product-detail-page'>
-                              <span class="rlr-product-card__sub-title">Beach Tours</span>
+                              <span class="rlr-product-card__sub-title"></span>
                             </a>
-                            <span class="rlr-product-card__sub-title">|</span>
+                            <span class="rlr-product-card__sub-title"></span>
                             <a class='rlr-product-card__anchor-sub-cat' href='/product-detail-page'>
-                              <span class="rlr-product-card__sub-title">Dubronik</span>
+                              <span class="rlr-product-card__sub-title"></span>
+                            </a>
+                          </div>
+                        </div>
+                      </header>
+                      <!-- Product card body -->
+                      <div class="rlr-product-card__details">
+
+                        <div class="rlr-product-card__ratings" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+
+                        </div>
+                      </div>
+                      <!-- Product card footer -->
+
+                    </div>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <!-- Product card item -->
+                  <article class="rlr-product-card rlr-product-card--v3" itemscope itemtype="https://schema.org/Product">
+                    <!-- Product card image -->
+                    <figure class="rlr-product-card__image-wrapper">
+                      <span class="rlr-badge rlr-badge-- rlr-badge--accent-blue rlr-product-card__badge"> Thành Cổ </span>
+                      <div class="rlr-product-detail-header__button-wrapper">
+                        <button type="button" class="btn rlr-button rlr-button--circle rlr-wishlist rlr-wishlist-button--light rlr-wishlist-button rlr-js-action-wishlist" aria-label="Save to Wishlist">
+                          <i class="rlr-icon-font flaticon-heart-1"> </i>
+                        </button>
+                        <span class="rlr-product-detail-header__helptext rlr-js-helptext"></span>
+                      </div>
+                      <div class="swiper rlr-js-product-multi-image-swiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img itemprop="image"data-src="https://media.vov.vn/sites/default/files/styles/large/public/2022-07/tri_an_cac_anh_hung_liet_si_tai_thanh_co_quang_tri.jpg" data-srcset="https://media.vov.vn/sites/default/files/styles/large/public/2022-07/tri_an_cac_anh_hung_liet_si_tai_thanh_co_quang_tri.jpg" class="lazyload" alt="product-image" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img itemprop="image"data-src="https://ximgo.com/upload/2020/07/30/thanh-co-quang-tri-1.jpg" data-srcset="https://ximgo.com/upload/2020/07/30/thanh-co-quang-tri-1.jpg" class="lazyload" alt="product-image" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img itemprop="image"data-src="https://luhanhvietnam.com.vn/du-lich/vnt_upload/news/09_2019/thanh-co.jpg" data-srcset="https://luhanhvietnam.com.vn/du-lich/vnt_upload/news/09_2019/thanh-co.jpg" class="lazyload" alt="product-image" />
+                          </div>
+                        </div>
+                        <button type="button" class="btn rlr-button splide__arrow splide__arrow--prev" aria-label="prev button">
+                          <i class="rlr-icon-font flaticon-left-chevron"> </i>
+                        </button>
+                        <button type="button" class="btn rlr-button splide__arrow splide__arrow--next" aria-label="next button">
+                          <i class="rlr-icon-font flaticon-chevron"> </i>
+                        </button>
+                      </div>
+                    </figure>
+                    <div class="rlr-product-card__detail-wrapper rlr-js-detail-wrapper">
+                      <!-- Product card header -->
+                      <header class="rlr-product-card__header">
+                        <div>
+                          <a class='rlr-product-card__anchor-title' href='{{route('location.detail/1')}}'>
+                            <h2 class="rlr-product-card__title" itemprop="name">Quảng Trị tổ chức cho người dân, du khách viếng nghĩa trang </h2>
+                          </a>
+                          <div>
+                            <a class='rlr-product-card__anchor-cat' href='/product-detail-page'>
+                              <span class="rlr-product-card__sub-title"></span>
+                            </a>
+                            <span class="rlr-product-card__sub-title"></span>
+                            <a class='rlr-product-card__anchor-sub-cat' href='/product-detail-page'>
+                              <span class="rlr-product-card__sub-title"></span>
                             </a>
                           </div>
                         </div>
@@ -113,22 +185,19 @@
                       <!-- Product card body -->
                       <div class="rlr-product-card__details">
                         <div class="rlr-product-card__prices" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-                          <span class="rlr-product-card__from">from </span>
-                          <span class="rlr-product-card__price"> <mark itemprop="priceCurrency">$</mark><mark itemprop="price">895</mark> </span>
+                          <span class="rlr-product-card__from"></span>
+                          <span class="rlr-product-card__price"> <mark itemprop="priceCurrency"></mark><mark itemprop="price"></mark> </span>
                         </div>
                         <div class="rlr-product-card__ratings" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                          <div class="rlr-review-stars" itemprop="ratingValue" itemscope itemtype="https://schema.org/Product">
-                            <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star"> </i>
-                          </div>
-                          <span class="rlr-product-card__rating-text" itemprop="reviewCount">4.7 (577)</span>
+
+
                         </div>
                       </div>
                       <!-- Product card footer -->
                       <div class="rlr-product-card__footer">
-                        <div class="rlr-icon-text rlr-product-card__icon-text"><i class="rlr-icon-font flaticon-three-o-clock-clock"> </i> <span class="">7 Days </span></div>
+
                         <ul class="rlr-product-card__icon-text-list">
-                          <li class="rlr-icon-text rlr-product-card__icon-text"><i class="rlr-icon-font flaticon-check"> </i> <span class="rlr-icon-text__title">New on Emprise </span></li>
-                          <li class="rlr-icon-text rlr-product-card__icon-text"><i class="rlr-icon-font flaticon-check"> </i> <span class="rlr-icon-text__title">Free Cancellation </span></li>
+
                         </ul>
                       </div>
                     </div>
@@ -139,7 +208,7 @@
                   <article class="rlr-product-card rlr-product-card--v3" itemscope itemtype="https://schema.org/Product">
                     <!-- Product card image -->
                     <figure class="rlr-product-card__image-wrapper">
-                      <span class="rlr-badge rlr-badge-- rlr-badge--accent-blue rlr-product-card__badge"> Best Seller </span>
+                      <span class="rlr-badge rlr-badge-- rlr-badge--brand rlr-product-card__badge">Cầu Hiền lương  </span>
                       <div class="rlr-product-detail-header__button-wrapper">
                         <button type="button" class="btn rlr-button rlr-button--circle rlr-wishlist rlr-wishlist-button--light rlr-wishlist-button rlr-js-action-wishlist" aria-label="Save to Wishlist">
                           <i class="rlr-icon-font flaticon-heart-1"> </i>
@@ -149,13 +218,13 @@
                       <div class="swiper rlr-js-product-multi-image-swiper">
                         <div class="swiper-wrapper">
                           <div class="swiper-slide">
-                            <img itemprop="image" data-sizes="auto" data-src="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" class="lazyload" alt="product-image" />
+                            <img itemprop="image"data-src="https://www.quangtri.gov.vn/o/3cmsnew-portlet/ViewImage?imagename=DJI_0299_1618562528082.jpg" data-srcset="https://www.quangtri.gov.vn/o/3cmsnew-portlet/ViewImage?imagename=DJI_0299_1618562528082.jpg" class="lazyload" alt="product-image" />
                           </div>
                           <div class="swiper-slide">
-                            <img itemprop="image" data-sizes="auto" data-src="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" class="lazyload" alt="product-image" />
+                            <img itemprop="image"data-src="https://i1-dulich.vnecdn.net/2022/07/13/QT1-7138-1657697263.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=FnKUxCDbjS6AjW3C5Ar1XA" width="200" height="100" class="lazyload" alt="product-image" />
                           </div>
                           <div class="swiper-slide">
-                            <img itemprop="image" data-sizes="auto" data-src="https://d33wubrfki0l68.cloudfront.net/e8eaab1664e0a66491cf5a8fa59320f688942c5a/7e92c/assets/images/product-images/small/03.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/e8eaab1664e0a66491cf5a8fa59320f688942c5a/7e92c/assets/images/product-images/small/03.jpg" class="lazyload" alt="product-image" />
+                            <img itemprop="image"data-src="https://image.nhandan.vn/w800/Files/Images/2022/05/01/368634B9_1247_4805_B602_117D533-1651367460146.jpeg" data-srcset="https://image.nhandan.vn/w800/Files/Images/2022/05/01/368634B9_1247_4805_B602_117D533-1651367460146.jpeg" class="lazyload" alt="product-image" />
                           </div>
                         </div>
                         <button type="button" class="btn rlr-button splide__arrow splide__arrow--prev" aria-label="prev button">
@@ -171,40 +240,15 @@
                       <header class="rlr-product-card__header">
                         <div>
                           <a class='rlr-product-card__anchor-title' href='/product-detail-page'>
-                            <h2 class="rlr-product-card__title" itemprop="name">Circle Line: Complete Manhattan Island Cruise</h2>
+                            <h2 class="rlr-product-card__title" itemprop="name">Đôi Bờ Cầu Hiền lương</h2>
                           </a>
-                          <div>
-                            <a class='rlr-product-card__anchor-cat' href='/product-detail-page'>
-                              <span class="rlr-product-card__sub-title">City Tour</span>
-                            </a>
-                            <span class="rlr-product-card__sub-title">|</span>
-                            <a class='rlr-product-card__anchor-sub-cat' href='/product-detail-page'>
-                              <span class="rlr-product-card__sub-title">New York</span>
-                            </a>
-                          </div>
+
                         </div>
                       </header>
                       <!-- Product card body -->
-                      <div class="rlr-product-card__details">
-                        <div class="rlr-product-card__prices" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-                          <span class="rlr-product-card__from">from </span>
-                          <span class="rlr-product-card__price"> <mark itemprop="priceCurrency">$</mark><mark itemprop="price">795</mark> </span>
-                        </div>
-                        <div class="rlr-product-card__ratings" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                          <div class="rlr-review-stars" itemprop="ratingValue" itemscope itemtype="https://schema.org/Product">
-                            <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star"> </i>
-                          </div>
-                          <span class="rlr-product-card__rating-text" itemprop="reviewCount">4.3 (109)</span>
-                        </div>
-                      </div>
+
                       <!-- Product card footer -->
-                      <div class="rlr-product-card__footer">
-                        <div class="rlr-icon-text rlr-product-card__icon-text"><i class="rlr-icon-font flaticon-three-o-clock-clock"> </i> <span class="">7 Days </span></div>
-                        <ul class="rlr-product-card__icon-text-list">
-                          <li class="rlr-icon-text rlr-product-card__icon-text"><i class="rlr-icon-font flaticon-check"> </i> <span class="rlr-icon-text__title">New on Emprise </span></li>
-                          <li class="rlr-icon-text rlr-product-card__icon-text"><i class="rlr-icon-font flaticon-check"> </i> <span class="rlr-icon-text__title">Free Cancellation </span></li>
-                        </ul>
-                      </div>
+
                     </div>
                   </article>
                 </div>
@@ -213,7 +257,7 @@
                   <article class="rlr-product-card rlr-product-card--v3" itemscope itemtype="https://schema.org/Product">
                     <!-- Product card image -->
                     <figure class="rlr-product-card__image-wrapper">
-                      <span class="rlr-badge rlr-badge-- rlr-badge--brand rlr-product-card__badge"> Free Lunch </span>
+                      <span class="rlr-badge rlr-badge-- rlr-badge--accent-magenta rlr-product-card__badge">Khu Sinh Thái </span>
                       <div class="rlr-product-detail-header__button-wrapper">
                         <button type="button" class="btn rlr-button rlr-button--circle rlr-wishlist rlr-wishlist-button--light rlr-wishlist-button rlr-js-action-wishlist" aria-label="Save to Wishlist">
                           <i class="rlr-icon-font flaticon-heart-1"> </i>
@@ -223,13 +267,13 @@
                       <div class="swiper rlr-js-product-multi-image-swiper">
                         <div class="swiper-wrapper">
                           <div class="swiper-slide">
-                            <img itemprop="image" data-sizes="auto" data-src="https://d33wubrfki0l68.cloudfront.net/e8eaab1664e0a66491cf5a8fa59320f688942c5a/7e92c/assets/images/product-images/small/03.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/e8eaab1664e0a66491cf5a8fa59320f688942c5a/7e92c/assets/images/product-images/small/03.jpg" class="lazyload" alt="product-image" />
+                            <img itemprop="image"  data-src="https://d33wubrfki0l68.cloudfront.net/a66f59b8d8a25928bbea0d8ae492caf362f5c665/5bae6/assets/images/product-images/small/04.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/a66f59b8d8a25928bbea0d8ae492caf362f5c665/5bae6/assets/images/product-images/small/04.jpg" class="lazyload" alt="product-image" />
                           </div>
                           <div class="swiper-slide">
-                            <img itemprop="image" data-sizes="auto" data-src="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" class="lazyload" alt="product-image" />
+                            <img itemprop="image"  data-src="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" class="lazyload" alt="product-image" />
                           </div>
                           <div class="swiper-slide">
-                            <img itemprop="image" data-sizes="auto" data-src="https://d33wubrfki0l68.cloudfront.net/e8eaab1664e0a66491cf5a8fa59320f688942c5a/7e92c/assets/images/product-images/small/03.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/e8eaab1664e0a66491cf5a8fa59320f688942c5a/7e92c/assets/images/product-images/small/03.jpg" class="lazyload" alt="product-image" />
+                            <img itemprop="image"  data-src="https://d33wubrfki0l68.cloudfront.net/e8eaab1664e0a66491cf5a8fa59320f688942c5a/7e92c/assets/images/product-images/small/03.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/e8eaab1664e0a66491cf5a8fa59320f688942c5a/7e92c/assets/images/product-images/small/03.jpg" class="lazyload" alt="product-image" />
                           </div>
                         </div>
                         <button type="button" class="btn rlr-button splide__arrow splide__arrow--prev" aria-label="prev button">
@@ -245,265 +289,17 @@
                       <header class="rlr-product-card__header">
                         <div>
                           <a class='rlr-product-card__anchor-title' href='/product-detail-page'>
-                            <h2 class="rlr-product-card__title" itemprop="name">Blue Lagoon &amp; 3 Islands Half-day Trip from Split</h2>
+                            <h2 class="rlr-product-card__title" itemprop="name">Khu Sinh Thái Ở Cửa Việt
                           </a>
-                          <div>
-                            <a class='rlr-product-card__anchor-cat' href='/product-detail-page'>
-                              <span class="rlr-product-card__sub-title">Hiking Tour</span>
-                            </a>
-                            <span class="rlr-product-card__sub-title">|</span>
-                            <a class='rlr-product-card__anchor-sub-cat' href='/product-detail-page'>
-                              <span class="rlr-product-card__sub-title">Stoke on Trent</span>
-                            </a>
-                          </div>
+
                         </div>
                       </header>
-                      <!-- Product card body -->
-                      <div class="rlr-product-card__details">
-                        <div class="rlr-product-card__prices" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-                          <span class="rlr-product-card__from">from </span>
-                          <span class="rlr-product-card__price"> <mark itemprop="priceCurrency">$</mark><mark itemprop="price">695</mark> </span>
-                        </div>
-                        <div class="rlr-product-card__ratings" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                          <div class="rlr-review-stars" itemprop="ratingValue" itemscope itemtype="https://schema.org/Product">
-                            <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star"> </i>
-                          </div>
-                          <span class="rlr-product-card__rating-text" itemprop="reviewCount">5.0 (208)</span>
-                        </div>
-                      </div>
-                      <!-- Product card footer -->
-                      <div class="rlr-product-card__footer">
-                        <div class="rlr-icon-text rlr-product-card__icon-text"><i class="rlr-icon-font flaticon-three-o-clock-clock"> </i> <span class="">7 Days </span></div>
-                        <ul class="rlr-product-card__icon-text-list">
-                          <li class="rlr-icon-text rlr-product-card__icon-text"><i class="rlr-icon-font flaticon-check"> </i> <span class="rlr-icon-text__title">New on Emprise </span></li>
-                          <li class="rlr-icon-text rlr-product-card__icon-text"><i class="rlr-icon-font flaticon-check"> </i> <span class="rlr-icon-text__title">Free Cancellation </span></li>
-                        </ul>
-                      </div>
+
                     </div>
                   </article>
                 </div>
-                <div class="swiper-slide">
-                  <!-- Product card item -->
-                  <article class="rlr-product-card rlr-product-card--v3" itemscope itemtype="https://schema.org/Product">
-                    <!-- Product card image -->
-                    <figure class="rlr-product-card__image-wrapper">
-                      <span class="rlr-badge rlr-badge-- rlr-badge--accent-magenta rlr-product-card__badge"> All Access </span>
-                      <div class="rlr-product-detail-header__button-wrapper">
-                        <button type="button" class="btn rlr-button rlr-button--circle rlr-wishlist rlr-wishlist-button--light rlr-wishlist-button rlr-js-action-wishlist" aria-label="Save to Wishlist">
-                          <i class="rlr-icon-font flaticon-heart-1"> </i>
-                        </button>
-                        <span class="rlr-product-detail-header__helptext rlr-js-helptext"></span>
-                      </div>
-                      <div class="swiper rlr-js-product-multi-image-swiper">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide">
-                            <img itemprop="image" data-sizes="auto" data-src="https://d33wubrfki0l68.cloudfront.net/a66f59b8d8a25928bbea0d8ae492caf362f5c665/5bae6/assets/images/product-images/small/04.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/a66f59b8d8a25928bbea0d8ae492caf362f5c665/5bae6/assets/images/product-images/small/04.jpg" class="lazyload" alt="product-image" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img itemprop="image" data-sizes="auto" data-src="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" class="lazyload" alt="product-image" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img itemprop="image" data-sizes="auto" data-src="https://d33wubrfki0l68.cloudfront.net/e8eaab1664e0a66491cf5a8fa59320f688942c5a/7e92c/assets/images/product-images/small/03.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/e8eaab1664e0a66491cf5a8fa59320f688942c5a/7e92c/assets/images/product-images/small/03.jpg" class="lazyload" alt="product-image" />
-                          </div>
-                        </div>
-                        <button type="button" class="btn rlr-button splide__arrow splide__arrow--prev" aria-label="prev button">
-                          <i class="rlr-icon-font flaticon-left-chevron"> </i>
-                        </button>
-                        <button type="button" class="btn rlr-button splide__arrow splide__arrow--next" aria-label="next button">
-                          <i class="rlr-icon-font flaticon-chevron"> </i>
-                        </button>
-                      </div>
-                    </figure>
-                    <div class="rlr-product-card__detail-wrapper rlr-js-detail-wrapper">
-                      <!-- Product card header -->
-                      <header class="rlr-product-card__header">
-                        <div>
-                          <a class='rlr-product-card__anchor-title' href='/product-detail-page'>
-                            <h2 class="rlr-product-card__title" itemprop="name">Private Tour: Montenegro Day Trip from Dubrovnik</h2>
-                          </a>
-                          <div>
-                            <a class='rlr-product-card__anchor-cat' href='/product-detail-page'>
-                              <span class="rlr-product-card__sub-title">Hiking Tour</span>
-                            </a>
-                            <span class="rlr-product-card__sub-title">|</span>
-                            <a class='rlr-product-card__anchor-sub-cat' href='/product-detail-page'>
-                              <span class="rlr-product-card__sub-title">Stoke on Trent</span>
-                            </a>
-                          </div>
-                        </div>
-                      </header>
-                      <!-- Product card body -->
-                      <div class="rlr-product-card__details">
-                        <div class="rlr-product-card__prices" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-                          <span class="rlr-product-card__from">from </span>
-                          <span class="rlr-product-card__price"> <mark itemprop="priceCurrency">$</mark><mark itemprop="price">995</mark> </span>
-                        </div>
-                        <div class="rlr-product-card__ratings" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                          <div class="rlr-review-stars" itemprop="ratingValue" itemscope itemtype="https://schema.org/Product">
-                            <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star"> </i>
-                          </div>
-                          <span class="rlr-product-card__rating-text" itemprop="reviewCount">4.5 (6718)</span>
-                        </div>
-                      </div>
-                      <!-- Product card footer -->
-                      <div class="rlr-product-card__footer">
-                        <div class="rlr-icon-text rlr-product-card__icon-text"><i class="rlr-icon-font flaticon-three-o-clock-clock"> </i> <span class="">7 Days </span></div>
-                        <ul class="rlr-product-card__icon-text-list">
-                          <li class="rlr-icon-text rlr-product-card__icon-text"><i class="rlr-icon-font flaticon-check"> </i> <span class="rlr-icon-text__title">New on Emprise </span></li>
-                          <li class="rlr-icon-text rlr-product-card__icon-text"><i class="rlr-icon-font flaticon-check"> </i> <span class="rlr-icon-text__title">Free Cancellation </span></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </article>
-                </div>
-                <div class="swiper-slide">
-                  <!-- Product card item -->
-                  <article class="rlr-product-card rlr-product-card--v3" itemscope itemtype="https://schema.org/Product">
-                    <!-- Product card image -->
-                    <figure class="rlr-product-card__image-wrapper">
-                      <span class="rlr-badge rlr-badge-- rlr-badge--brand rlr-product-card__badge"> 5 Seats Left </span>
-                      <div class="rlr-product-detail-header__button-wrapper">
-                        <button type="button" class="btn rlr-button rlr-button--circle rlr-wishlist rlr-wishlist-button--light rlr-wishlist-button rlr-js-action-wishlist" aria-label="Save to Wishlist">
-                          <i class="rlr-icon-font flaticon-heart-1"> </i>
-                        </button>
-                        <span class="rlr-product-detail-header__helptext rlr-js-helptext"></span>
-                      </div>
-                      <div class="swiper rlr-js-product-multi-image-swiper">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide">
-                            <img itemprop="image" data-sizes="auto" data-src="https://d33wubrfki0l68.cloudfront.net/e130927abfddd9b3ce8dd3db6d41b6606591b25d/6090c/assets/images/product-images/small/01.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/e130927abfddd9b3ce8dd3db6d41b6606591b25d/6090c/assets/images/product-images/small/01.jpg" class="lazyload" alt="product-image" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img itemprop="image" data-sizes="auto" data-src="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" class="lazyload" alt="product-image" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img itemprop="image" data-sizes="auto" data-src="https://d33wubrfki0l68.cloudfront.net/e8eaab1664e0a66491cf5a8fa59320f688942c5a/7e92c/assets/images/product-images/small/03.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/e8eaab1664e0a66491cf5a8fa59320f688942c5a/7e92c/assets/images/product-images/small/03.jpg" class="lazyload" alt="product-image" />
-                          </div>
-                        </div>
-                        <button type="button" class="btn rlr-button splide__arrow splide__arrow--prev" aria-label="prev button">
-                          <i class="rlr-icon-font flaticon-left-chevron"> </i>
-                        </button>
-                        <button type="button" class="btn rlr-button splide__arrow splide__arrow--next" aria-label="next button">
-                          <i class="rlr-icon-font flaticon-chevron"> </i>
-                        </button>
-                      </div>
-                    </figure>
-                    <div class="rlr-product-card__detail-wrapper rlr-js-detail-wrapper">
-                      <!-- Product card header -->
-                      <header class="rlr-product-card__header">
-                        <div>
-                          <a class='rlr-product-card__anchor-title' href='/product-detail-page'>
-                            <h2 class="rlr-product-card__title" itemprop="name">Old Town, Dubai Creek, Souks, and Street Food Tour</h2>
-                          </a>
-                          <div>
-                            <a class='rlr-product-card__anchor-cat' href='/product-detail-page'>
-                              <span class="rlr-product-card__sub-title">Hiking Tour</span>
-                            </a>
-                            <span class="rlr-product-card__sub-title">|</span>
-                            <a class='rlr-product-card__anchor-sub-cat' href='/product-detail-page'>
-                              <span class="rlr-product-card__sub-title">Stoke on Trent</span>
-                            </a>
-                          </div>
-                        </div>
-                      </header>
-                      <!-- Product card body -->
-                      <div class="rlr-product-card__details">
-                        <div class="rlr-product-card__prices" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-                          <span class="rlr-product-card__from">from </span>
-                          <span class="rlr-product-card__price"> <mark itemprop="priceCurrency">$</mark><mark itemprop="price">395</mark> </span>
-                        </div>
-                        <div class="rlr-product-card__ratings" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                          <div class="rlr-review-stars" itemprop="ratingValue" itemscope itemtype="https://schema.org/Product">
-                            <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star"> </i>
-                          </div>
-                          <span class="rlr-product-card__rating-text" itemprop="reviewCount">4.7 (310)</span>
-                        </div>
-                      </div>
-                      <!-- Product card footer -->
-                      <div class="rlr-product-card__footer">
-                        <div class="rlr-icon-text rlr-product-card__icon-text"><i class="rlr-icon-font flaticon-three-o-clock-clock"> </i> <span class="">7 Days </span></div>
-                        <ul class="rlr-product-card__icon-text-list">
-                          <li class="rlr-icon-text rlr-product-card__icon-text"><i class="rlr-icon-font flaticon-check"> </i> <span class="rlr-icon-text__title">New on Emprise </span></li>
-                          <li class="rlr-icon-text rlr-product-card__icon-text"><i class="rlr-icon-font flaticon-check"> </i> <span class="rlr-icon-text__title">Free Cancellation </span></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </article>
-                </div>
-                <div class="swiper-slide" data-aos="fade-up" data-aos-offset="100" data-aos-duration="600">
-                  <!-- Product card item -->
-                  <article class="rlr-product-card rlr-product-card--v3" itemscope itemtype="https://schema.org/Product">
-                    <!-- Product card image -->
-                    <figure class="rlr-product-card__image-wrapper">
-                      <span class="rlr-badge rlr-badge-- rlr-badge--accent-blue rlr-product-card__badge"> Trending </span>
-                      <div class="rlr-product-detail-header__button-wrapper">
-                        <button type="button" class="btn rlr-button rlr-button--circle rlr-wishlist rlr-wishlist-button--light rlr-wishlist-button rlr-js-action-wishlist" aria-label="Save to Wishlist">
-                          <i class="rlr-icon-font flaticon-heart-1"> </i>
-                        </button>
-                        <span class="rlr-product-detail-header__helptext rlr-js-helptext"></span>
-                      </div>
-                      <div class="swiper rlr-js-product-multi-image-swiper">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide">
-                            <img itemprop="image" data-sizes="auto" data-src="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" class="lazyload" alt="product-image" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img itemprop="image" data-sizes="auto" data-src="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/7a61c27c1584bc2fc2405af810f4cf0e018ee5f2/92944/assets/images/product-images/small/02.jpg" class="lazyload" alt="product-image" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img itemprop="image" data-sizes="auto" data-src="https://d33wubrfki0l68.cloudfront.net/e8eaab1664e0a66491cf5a8fa59320f688942c5a/7e92c/assets/images/product-images/small/03.jpg" data-srcset="https://d33wubrfki0l68.cloudfront.net/e8eaab1664e0a66491cf5a8fa59320f688942c5a/7e92c/assets/images/product-images/small/03.jpg" class="lazyload" alt="product-image" />
-                          </div>
-                        </div>
-                        <button type="button" class="btn rlr-button splide__arrow splide__arrow--prev" aria-label="prev button">
-                          <i class="rlr-icon-font flaticon-left-chevron"> </i>
-                        </button>
-                        <button type="button" class="btn rlr-button splide__arrow splide__arrow--next" aria-label="next button">
-                          <i class="rlr-icon-font flaticon-chevron"> </i>
-                        </button>
-                      </div>
-                    </figure>
-                    <div class="rlr-product-card__detail-wrapper rlr-js-detail-wrapper">
-                      <!-- Product card header -->
-                      <header class="rlr-product-card__header">
-                        <div>
-                          <a class='rlr-product-card__anchor-title' href='/product-detail-page'>
-                            <h2 class="rlr-product-card__title" itemprop="name">Hamilton Live! Walking Tour in lower Manhattan</h2>
-                          </a>
-                          <div>
-                            <a class='rlr-product-card__anchor-cat' href='/product-detail-page'>
-                              <span class="rlr-product-card__sub-title">Hiking Tour</span>
-                            </a>
-                            <span class="rlr-product-card__sub-title">|</span>
-                            <a class='rlr-product-card__anchor-sub-cat' href='/product-detail-page'>
-                              <span class="rlr-product-card__sub-title">Stoke on Trent</span>
-                            </a>
-                          </div>
-                        </div>
-                      </header>
-                      <!-- Product card body -->
-                      <div class="rlr-product-card__details">
-                        <div class="rlr-product-card__prices" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-                          <span class="rlr-product-card__from">from </span>
-                          <span class="rlr-product-card__price"> <mark itemprop="priceCurrency">$</mark><mark itemprop="price">295</mark> </span>
-                        </div>
-                        <div class="rlr-product-card__ratings" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                          <div class="rlr-review-stars" itemprop="ratingValue" itemscope itemtype="https://schema.org/Product">
-                            <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star-1"> </i> <i class="rlr-icon-font flaticon-star"> </i>
-                          </div>
-                          <span class="rlr-product-card__rating-text" itemprop="reviewCount">4.3 (205)</span>
-                        </div>
-                      </div>
-                      <!-- Product card footer -->
-                      <div class="rlr-product-card__footer">
-                        <div class="rlr-icon-text rlr-product-card__icon-text"><i class="rlr-icon-font flaticon-three-o-clock-clock"> </i> <span class="">7 Days </span></div>
-                        <ul class="rlr-product-card__icon-text-list">
-                          <li class="rlr-icon-text rlr-product-card__icon-text"><i class="rlr-icon-font flaticon-check"> </i> <span class="rlr-icon-text__title">New on Emprise </span></li>
-                          <li class="rlr-icon-text rlr-product-card__icon-text"><i class="rlr-icon-font flaticon-check"> </i> <span class="rlr-icon-text__title">Free Cancellation </span></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </article>
-                </div>
+
+
               </div>
             </div>
           </div>

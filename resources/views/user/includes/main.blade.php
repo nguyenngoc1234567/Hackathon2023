@@ -6,7 +6,7 @@
         <rs-module id="rev_slider_2_1" style="" data-version="6.5.15">
           <rs-slides>
             <rs-slide style="position: absolute" data-key="rs-4" data-title="Slide" data-anim="d:20;ms:1210;" data-in="o:0;x:ran(-200|200);sx:2;sy:2;e:power3.Out;row:100;col:10;" data-d3="f:cube;z:450;t:20;su:true;sc:#9e9e9e;">
-              <img src="https://d33wubrfki0l68.cloudfront.net/759b0bf793f331d158b40347730ac7eef86b7932/e8700/assets/images/rev-slider/slide-2--v3.jpg" alt="" title="BG Image" width="1600" height="646" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina />
+              <img src="https://sdl.thuathienhue.gov.vn/UploadFiles/TinTuc/du-lich-quang-tri.jpg" alt="" title="BG Image" width="1600" height="646" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina />
               <!--
                                 -->
               <rs-layer
@@ -21,7 +21,7 @@
                 data-frame_999="o:0;st:w;"
                 style="z-index: 9; font-family: 'Poppins'; text-transform: capitalize"
               >
-                The Himalayan Mountain Ranges
+
               </rs-layer>
               <!--
 
@@ -38,7 +38,7 @@
                 data-frame_999="o:0;st:w;"
                 style="z-index: 10; font-family: 'Poppins'; text-transform: capitalize"
               >
-                Nepal Country
+
               </rs-layer>
               <!--
 
@@ -55,7 +55,7 @@
                 data-frame_999="o:0;st:w;"
                 style="z-index: 11; font-family: 'Poppins'; text-transform: capitalize"
               >
-                -02° C Very Cold
+
               </rs-layer>
               <!--
 
@@ -112,8 +112,8 @@
                 data-frame_999="o:0;st:w;"
                 style="z-index: 8; font-family: 'Poppins'; text-transform: capitalize"
               >
-                We Accept Payment Through<br />
-                All Cards & Banking
+               <br />
+
               </rs-layer>
               <!--
 
@@ -130,7 +130,7 @@
                 data-frame_1="e:power4.inOut;st:300;sp:1500;"
                 data-frame_999="o:0;st:w;"
                 style="z-index: 15; font-family: 'Poppins'"
-                >Book Now!
+                >
               </a>
               <!--
 
@@ -156,7 +156,7 @@
                 data-frame_999="o:0;st:w;"
                 style="z-index: 9; font-family: 'Poppins'; text-transform: capitalize"
               >
-                The Plains and Ocean Ranges
+
               </rs-layer>
               <!--
 
@@ -173,7 +173,7 @@
                 data-frame_999="o:0;st:w;"
                 style="z-index: 10; font-family: 'Poppins'; text-transform: capitalize"
               >
-                India Country
+
               </rs-layer>
               <!--
 
@@ -190,7 +190,7 @@
                 data-frame_999="o:0;st:w;"
                 style="z-index: 11; font-family: 'Poppins'; text-transform: capitalize"
               >
-                -02° C Very Cold
+
               </rs-layer>
               <!--
 
@@ -349,36 +349,24 @@
           <!-- Destination -->
           <div class="rlr-banner-input-group rlr-banner-input-group rlr-banner-input-group--home-search rlr-js-autocomplete-demo rlr-banner-search__banner-input rlr-js-search-layout-wrapper">
             <label class="rlr-banner-input-group__label" for="destination_input">
-              <mark>Location</mark>
+              <mark>Tỉnh </mark>
             </label>
-            <div class="rlr-banner-input-group__input-wrapper">
-              <input id="destination_input" name="location" type="text" autocomplete="off" class="rlr-banner-input-group__input destination_input" placeholder="Enter your destination" />
-              <i class="rlr-icon-font flaticon-map-marker"> </i>
-              <ul id="home_destination_results" class="rlr-banner-input-group--location-dropdown rlr-autocomplete"></ul>
-            </div>
+            <select name="category_id" id="" class="form-control">
+                @foreach ($provinces as $item)
+                    <option value="{{ $item->id }}">{{ $item->name }}</option>
+                @endforeach
+            </select>
           </div>
           <!-- Activity -->
           <div class="rlr-banner-input-group rlr-js-autocomplete-activity-demo rlr-banner-search__banner-input rlr-js-search-layout-wrapper">
             <label class="rlr-banner-input-group__label" for="rlr-banner-input-group-activity">
-              <mark>Activity</mark>
+              <mark>Tên địa điểm</mark>
             </label>
-            <div class="rlr-banner-input-group__input-wrapper">
-              <input id="rlr-banner-input-group-activity" name="activity" type="text" autocomplete="off" class="rlr-banner-input-group__input activity_autocomplete" placeholder="Bungee jump" />
-              <i class="rlr-icon-font flaticon-outline-down"> </i>
-              <ul id="autocomplete-results" class="rlr-banner-input-group--activity-dropdown rlr-autocomplete"></ul>
-            </div>
+            <input type="search" id="site-search" name="q">
+
           </div>
           <!-- Date -->
-          <div class="rlr-banner-input-group rlr-banner-search__banner-input rlr-js-search-layout-wrapper">
-            <label class="rlr-banner-input-group__label" for="rlr-banner-input-group-dates">
-              <mark>Date</mark>
-            </label>
-            <div class="rlr-banner-input-group__input-wrapper">
-              <input id="rlr-banner-input-group-dates" type="text" autocomplete="off" class="rlr-banner-input-group__input eee_home_search_flatpickr" placeholder="Set dates" />
-              <i class="rlr-icon-font flaticon-calendar"> </i>
-              <ul id="home_date_results" class="rlr-banner-input-group--date-dropdown rlr-autocomplete"></ul>
-            </div>
-          </div>
+
         </div>
         <button class="rlr-banner-search__submit-button" aria-label="banner submit">
           <i class="rlr-icon-font flaticon-search"> </i>

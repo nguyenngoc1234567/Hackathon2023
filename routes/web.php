@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('user.layout.master');
-});
+// Route::get('/', function () {
+//     return view('user.layout.master');
+// });
+Route::get('/', [Controller::class, 'index']);
+Route::get('/details', [Controller::class, 'detail'])->name('location.detail');
+
