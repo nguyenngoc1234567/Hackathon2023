@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\District;
+use App\Models\Location;
+use App\Models\Province;
 
 class HomeController extends Controller
 {
