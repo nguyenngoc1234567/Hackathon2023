@@ -35,7 +35,6 @@
         height: 250px;
     }
     </style>
-
   <body class="rlr-body">
     @include('user.includes.header')
 

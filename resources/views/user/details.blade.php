@@ -186,7 +186,6 @@
               </div>
             </div>
             <!-- Itinerary -->
-
             <!-- Inclusion and Exclusions -->
 
             <!-- Reviews -->

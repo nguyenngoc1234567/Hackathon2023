@@ -100,7 +100,6 @@
           <!-- Activity -->
 
           <!-- Date -->
-
         </div>
         <button class="rlr-banner-search__submit-button" aria-label="banner submit">
           <i class="rlr-icon-font flaticon-search"> </i>
