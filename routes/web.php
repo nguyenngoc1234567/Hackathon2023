@@ -20,3 +20,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [Controller::class, 'index'])->name('home');
 Route::get('/details', [Controller::class, 'detail'])->name('location.detail');
 
+
