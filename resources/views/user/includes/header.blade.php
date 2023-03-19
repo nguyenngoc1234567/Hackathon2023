@@ -5,7 +5,7 @@
         <div class="navigation-brand-text">
           <div class="rlr-logo rlr-logo__navbar-brand rlr-logo--default">
             <a href='/'>
-              <img src="https://d33wubrfki0l68.cloudfront.net/aaa02010f488894526f43081dfa4f60df6242acd/439cb/assets/svg/emprise-logo-dark.svg" alt="#" class="" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnevEYKp9ir6OVszi7CqWrK8rcrtY9qgzPB0Q6VG6_hA&s" alt="#" class="" />
             </a>
           </div>
         </div>
@@ -18,7 +18,7 @@
           <div class="navigation-brand-text">
             <div class="rlr-logo rlr-logo__navbar-brand rlr-logo--default">
               <a href='/'>
-                <img src="https://d33wubrfki0l68.cloudfront.net/aaa02010f488894526f43081dfa4f60df6242acd/439cb/assets/svg/emprise-logo-dark.svg" alt="#" class="" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnevEYKp9ir6OVszi7CqWrK8rcrtY9qgzPB0Q6VG6_hA&s" alt="#" class="" />
               </a>
             </div>
           </div>
@@ -29,7 +29,7 @@
         <ul class="navigation-menu rlr-navigation__menu rlr-navigation__menu--main-links">
           <!-- Dropdown menu 1 -->
           <li class="navigation-item is-active">
-            <a class='navigation-link' href='/home-page'>Trang Chính</a>
+            <a class='navigation-link' href='{{route('home')}}'>Trang Chủ</a>
 
           </li>
           <!-- Mega menu -->
@@ -40,7 +40,7 @@
                 <ul class="navigation-tabs">
                   <li class="rlr-navigation__tabbed-list">
                     <ul class="navigation-tabs-nav">
-                      <li class="navigation-tabs-nav-item is-active"><a href="#">Africa</a></li>
+                      <li class="navigation-tabs-nav-item is-active"><a href="#">Việt Nam</a></li>
                       <li class="navigation-tabs-nav-item"><a href="#">Gio Linh</a></li>
                       <li class="navigation-tabs-nav-item"><a href="#">Cam Lộ </a></li>
                       <li class="navigation-tabs-nav-item"><a href="#">Thị xã Quảng Trị</a></li>
@@ -258,7 +258,7 @@
 
             </ul>
           </li>
-        
+
 
         </ul>
 

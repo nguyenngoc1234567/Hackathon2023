@@ -17,6 +17,6 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('user.layout.master');
 // });
-Route::get('/', [Controller::class, 'index']);
+Route::get('/', [Controller::class, 'index'])->name('home');
 Route::get('/details', [Controller::class, 'detail'])->name('location.detail');
 

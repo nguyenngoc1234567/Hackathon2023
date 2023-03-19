@@ -15,21 +15,27 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
 
-    public function index()
+    public function index(Request $request)
     {
-        // $locations = Location::all();
         $provinces = Province::all();
         $locations = Location::all();
+        $districts = District::all();
+
+        if ($request->province === 'Quảng Trị') {
+            $search = Location::where('name', 'LIKE', '%' .'Quảng Trị' . '%')->all();
+            return redirect()->route('home');
+        }
+
         // dd( $districts);
-        return view('user.layout.master', compact('provinces','locations'));
+        return view('user.main', compact('provinces','locations','districts'));
     }
     public function detail()
     {
         // $locations = Location::all();
-        // $provinces = Province::all();
+        $provinces = Province::all();
         // $locations = Location::all();
         // dd( $districts);
-        return view('user.details');
+        return view('user.details',compact('provinces'));
     }
     public function search(Request $request)
     {
