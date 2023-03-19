@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('user.layout.master');
 // });
-Route::get('/', [Controller::class, 'index'])->name('home');
-Route::get('/details', [Controller::class, 'detail'])->name('location.detail');
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/details', [HomeController::class, 'detail'])->name('location.detail');
 
 

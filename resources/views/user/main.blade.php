@@ -9,7 +9,7 @@
         <rs-module id="rev_slider_2_1" style="" data-version="6.5.15">
           <rs-slides>
             <rs-slide style="position: absolute" data-key="rs-4" data-title="Slide" data-anim="d:20;ms:1210;" data-in="o:0;x:ran(-200|200);sx:2;sy:2;e:power3.Out;row:100;col:10;" data-d3="f:cube;z:450;t:20;su:true;sc:#9e9e9e;">
-              <img src="https://cdn.yeudulich.com/940x630/media/attraction/attraction/VNMVQT04.jpg" alt="" title="BG Image" width="1800 px" height="646 px" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina />
+              <img src="https://baoninhbinh.org.vn/DATA/ARTICLES/2022/4/26/cau-hien-luong-bieu-tuong-khat-vong-thong-nhat-non-song-af26f.jpg" alt="" title="BG Image" width="1800 px" height="646 px" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina />
 
 
           </rs-slides>
@@ -83,7 +83,7 @@
       <!-- Search banner -->
             @csrf
       <form class="rlr-banner-search rlr-banner-search--hero-half-mast" action="{{ route('home') }}" method="GET">
-        @csrf
+    
 
         <div class="rlr-banner-search__input-wrapper">
           <!-- Destination -->
